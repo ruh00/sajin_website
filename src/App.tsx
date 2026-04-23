@@ -283,9 +283,7 @@ const HeroSection: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
-            <span className="inline-block px-4 py-2 bg-white/60 backdrop-blur-sm border border-zinc-200/50 rounded-full text-sm font-medium text-zinc-600 mb-6">
-              Education Graduate & Community Advocate
-            </span>
+
           </motion.div>
 
           <motion.h1
@@ -368,17 +366,17 @@ const AboutSection: React.FC = () => {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.7 }}
           >
-            <div className="relative">
-              <div className="aspect-[4/5] rounded-3xl overflow-hidden bg-gradient-to-br from-zinc-100 to-zinc-200">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center mb-4">
-                      <span className="text-4xl font-light text-zinc-700">TR</span>
-                    </div>
-                    <p className="text-zinc-500 text-sm">Tafrim Reza Mohammad Sajin</p>
-                  </div>
-                </div>
-              </div>
+          <div className="relative">
+        <div className="aspect-[4/5] rounded-3xl overflow-hidden bg-gradient-to-br from-zinc-100 to-zinc-200">
+          
+          <img
+            src="https://plain-apac-prod-public.komododecks.com/202604/23/YIVAUPGAH4NXv3pJn0ds/image.jpg"
+            alt="Tafrim Reza Mohammad Sajin"
+            className="w-full h-full object-cover"
+          />
+
+        </div>
+      </div>
               <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
