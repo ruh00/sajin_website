@@ -377,19 +377,7 @@ const AboutSection: React.FC = () => {
 
         </div>
       </div>
-              <motion.div
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: 0.3, duration: 0.5 }}
-                className="absolute -bottom-6 -right-6 w-32 h-32 rounded-2xl bg-zinc-900 flex items-center justify-center"
-              >
-                <div className="text-center text-white">
-                  <div className="text-3xl font-light">3+</div>
-                  <div className="text-xs text-zinc-300">Years Active</div>
-                </div>
-              </motion.div>
-            </div>
+ 
           </motion.div>
 
           <motion.div
