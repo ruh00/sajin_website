@@ -135,7 +135,7 @@ const volunteerRoles = [
   {
     title: 'Debater & Public Speaker',
     organization: 'Chittagong University Debating Society (CUDS)',
-    description: 'Completed 16th Debate & Public Speaking Workshop',
+    description: 'Completed 16th Debate & Public Speaking Workshop. ',
     icon: <Users size={20} />,
   },
 ];
@@ -826,7 +826,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <p className="text-white font-medium mb-1">Tafrim Reza Mohammad Sajin</p>
-            <p className="text-sm">Education Graduate & Community Advocate</p>
+            <p className="text-sm">...</p>
           </div>
           
           <div className="flex items-center gap-6">
